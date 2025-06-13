@@ -22,17 +22,17 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-		.binaryTarget(name: "ScanditBarcodeCapture", url: "https://ssl.scandit.com/sdk/download/scandit-datacapture-ios-barcode-7.4.0-beta.2-xcframework.zip", checksum: "71893409d8a6baba68c8ea14f5232e2c7a74b943c9e4b60b1d290c4076f127d4"),
-		.binaryTarget(name: "ScanditCaptureCore", url: "https://ssl.scandit.com/sdk/download/scandit-datacapture-ios-core-7.4.0-beta.2-xcframework.zip", checksum: "9205c96f2a2bb88c8a8c6121e4ccf95873aaf77f120608a004def1a8b803f6fb"),
-		.binaryTarget(name: "ScanditIdCapture", url: "https://ssl.scandit.com/sdk/download/scandit-datacapture-ios-id-7.4.0-beta.2-xcframework.zip", checksum: "85850deab896301d2b26e1b6941abe58bc3592f68927250a0f74407f689106f8"),
-		.binaryTarget(name: "ScanditIdAamvaBarcodeVerification", url: "https://ssl.scandit.com/sdk/download/scandit-datacapture-ios-id-aamva-barcode-verification-7.4.0-beta.2-xcframework.zip", checksum: "fe78737136110da4c6568d721254370c339ae3c8c8b80e3fd903a7b2f9a5b774"),
-		.binaryTarget(name: "ScanditIdEuropeDrivingLicense", url: "https://ssl.scandit.com/sdk/download/scandit-datacapture-ios-id-europe-driving-license-models-7.4.0-beta.2-xcframework.zip", checksum: "8940218072f7601caa8519a9d8c50ef7407fc2827f4cc99f9bf074938184011d"),
-		.binaryTarget(name: "ScanditIdVoidedDetection", url: "https://ssl.scandit.com/sdk/download/scandit-datacapture-ios-id-voided-detection-models-7.4.0-beta.2-xcframework.zip", checksum: "f175da1a8e29e116938b2d644766dc8574c9d91c9c21949d425395441135fbfd"),
-		.binaryTarget(name: "ScanditLabelCapture", url: "https://ssl.scandit.com/sdk/download/scandit-datacapture-ios-label-7.4.0-beta.2-xcframework.zip", checksum: "9b3cb22cb513a3eb36d45aa22dbb1b9bd3871d159246f39d5771ddcb58a3c192"),
-		.binaryTarget(name: "ScanditPriceLabel", url: "https://ssl.scandit.com/sdk/download/scandit-datacapture-ios-label-plv-models-7.4.0-beta.2-xcframework.zip", checksum: "47655d9cb20f9cc6114d08b7fa8e6956d2f627be4f7d8271c9356a3f009f31e1"),
-		.binaryTarget(name: "ScanditLabelCaptureText", url: "https://ssl.scandit.com/sdk/download/scandit-datacapture-ios-label-text-models-7.4.0-beta.2-xcframework.zip", checksum: "ff6cf5873d505bbc32a9b9b8ec87311fd0354d4fa3ec7d2c89998c18b84d572d"),
-		.binaryTarget(name: "ScanditParser", url: "https://ssl.scandit.com/sdk/download/scandit-datacapture-ios-parser-7.4.0-beta.2-xcframework.zip", checksum: "96519d9ec08fae411d30baafbf02fd46e7a5aac841775cc1fd587f869d2425ec"),
-		.binaryTarget(name: "ScanditIDC", url: "https://ssl.scandit.com/sdk/download/scandit-datacapture-ios-idc-7.4.0-beta.2-xcframework.zip", checksum: "9b67ff50e619faacf7f119d71fb69d49a023d8d5108cb52d1e4fa37337abc8dc"),
+		.binaryTarget(name: "ScanditBarcodeCapture", url: "https://ssl.scandit.com/sdk/download/scandit-datacapture-ios-barcode-7.3.1-xcframework.zip", checksum: "6f50f8f3f0a335866c1c46bd64787d678699e5c88abc6ce127405e6add9f4e57"),
+		.binaryTarget(name: "ScanditCaptureCore", url: "https://ssl.scandit.com/sdk/download/scandit-datacapture-ios-core-7.3.1-xcframework.zip", checksum: "70cbe49c0571063f36e09c62748682ee5bcd39cb5e03edc481d0324410cabd82"),
+		.binaryTarget(name: "ScanditIdCapture", url: "https://ssl.scandit.com/sdk/download/scandit-datacapture-ios-id-7.3.1-xcframework.zip", checksum: "2b55ab8e9fd32b444c9886c8ff3964c13f3a395227eb9fc90948bc7054c1bf78"),
+		.binaryTarget(name: "ScanditIdAamvaBarcodeVerification", url: "https://ssl.scandit.com/sdk/download/scandit-datacapture-ios-id-aamva-barcode-verification-7.3.1-xcframework.zip", checksum: "f9b9b6a2296074268ca71aa33f8094a6023731b9596c305988a97f6e9dd379f6"),
+		.binaryTarget(name: "ScanditIdEuropeDrivingLicense", url: "https://ssl.scandit.com/sdk/download/scandit-datacapture-ios-id-europe-driving-license-models-7.3.1-xcframework.zip", checksum: "96382fe4d7f266e5671e02b266f29c29143499f6cd1bbe9c11c142036c9835d6"),
+		.binaryTarget(name: "ScanditIdVoidedDetection", url: "https://ssl.scandit.com/sdk/download/scandit-datacapture-ios-id-voided-detection-models-7.3.1-xcframework.zip", checksum: "21fe076eeb437dbad8c3eac09b6f36fb4899ba5d6963959856a91cb93009f1af"),
+		.binaryTarget(name: "ScanditLabelCapture", url: "https://ssl.scandit.com/sdk/download/scandit-datacapture-ios-label-7.3.1-xcframework.zip", checksum: "1e88372f361b540788959f29a235a342f514532ecbc2ec0579f8472b0f0cbbc8"),
+		.binaryTarget(name: "ScanditPriceLabel", url: "https://ssl.scandit.com/sdk/download/scandit-datacapture-ios-label-plv-models-7.3.1-xcframework.zip", checksum: "f050c9f08eeadf807a5d22567d9c4221807f29785a07d7aa8851f3fa2dee2727"),
+		.binaryTarget(name: "ScanditLabelCaptureText", url: "https://ssl.scandit.com/sdk/download/scandit-datacapture-ios-label-text-models-7.3.1-xcframework.zip", checksum: "e92ddd48bbbb29abe7dc12395eaa8f952948d1740254d30f8c201517481e58f8"),
+		.binaryTarget(name: "ScanditParser", url: "https://ssl.scandit.com/sdk/download/scandit-datacapture-ios-parser-7.3.1-xcframework.zip", checksum: "31fccf174c50f8ffb1c6d8e7081abfd8aac3c8a2c66d01bd8034fb99da0bfcaa"),
+		.binaryTarget(name: "ScanditIDC", url: "https://ssl.scandit.com/sdk/download/scandit-datacapture-ios-idc-7.3.1-xcframework.zip", checksum: "27c9ffbd62e754d09e4f0c06368a1a1813b114172afda2622016783f19b54434"),
 
     ]
 )
